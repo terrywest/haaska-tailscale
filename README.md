@@ -8,6 +8,9 @@ If you fork this repo and setup **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KE
 
 Currently it uses a fork of haaska in order to use environnment variables instead of the config.json for the home assistant url and token
 
+### Note ###
+You must setup am Amazon ERC with the name 'ha-lambda-tailscale' for the image to be pushed into your AWS account.
+
 **Requirement**: The [HA Tailscale Add-on](https://github.com/hassio-addons/addon-tailscale) installed and configured
 
 The lambda function needs the 3 env vars:
